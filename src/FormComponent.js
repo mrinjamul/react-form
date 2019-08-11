@@ -3,7 +3,7 @@ import React from "react"
 function FormComponent(props) {
     return (
         <main>
-            <form>
+            <form onSubmit={props.handleSubmit}>
                 <input 
                     name="firstName" 
                     value={props.data.firstName} 
@@ -96,7 +96,7 @@ function FormComponent(props) {
                 </label>
                 <br />
                 
-                <button>Submit</button>
+                <button type="Submit">Submit</button>
             </form>
             <hr />
             <h2>Entered information:</h2>
