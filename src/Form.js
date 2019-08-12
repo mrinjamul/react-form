@@ -30,8 +30,7 @@ class Form extends Component {
     }
     handleSubmit = (event) => {
         event.preventDefault();
-        console.log(this.state.fullName);
-        console.log(this.state.email);
+        console.log(this.state);
         fetch('http://localhost:8080/users/',{
           method: 'POST',
           headers: {'Content-type':'application/json'},
@@ -46,6 +45,7 @@ class Form extends Component {
             "isLactoseFree": this.state.isLactoseFree
           })
         });
+        console.log("Updated");
         }
         
 
