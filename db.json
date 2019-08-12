@@ -1,3 +1,15 @@
 {
-    "users": []
+  "users": [
+    {
+      "firstName": "Injamul",
+      "lastName": "Mohammad Mollah",
+      "age": "17",
+      "gender": "male",
+      "destination": "germany",
+      "isVegan": true,
+      "isKosher": true,
+      "isLactoseFree": true,
+      "id": 1
+    }
+  ]
   }
